@@ -3,7 +3,7 @@ SSH proxy with HASSH firewalling capabilities.
 
 
 # Basic usage
-- Edit allow/block lists below to your liking.
+- Edit allow/block lists in sshunt.py to your liking.
 
 - Configure your sshd to listen on localhost only or a non-standard
   port by setting ListenAddress to 127.0.0.1 or Port to whatever you
