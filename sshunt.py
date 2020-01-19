@@ -239,7 +239,7 @@ def main():
 
                 if hassh \
                    and hassh in collector.bad_hasshes \
-                   and hassh not in collector.good_hasshes):
+                   and hassh not in collector.good_hasshes:
                     print("[-] Bad HASSH detected from %s: %s" % \
                           (ready.getpeername()[0], hassh))
 
